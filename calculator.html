@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+			integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<title>Calculator</title>
+	</head>
+	<body >
+		<div class="container">
+			<div class="jumbotron">
+                <h1>Simple Calculator dedicated to <span>Kristin</span> my Love</h1>
+            </div>
+			<div class="dimension form-control">
+				<form class="form-group ">
+                    <textarea type="text" class="text form-control" id="inputNum" ></textarea>
+                </form>
+                <div class="row">
+                        <div class="col-sm "><button class="btn-success btn-lg m-1" id="clear" type="button" value="C">C</button></div>
+                        <div class="col-sm"><button class="btn-primary btn-lg  operator" type="button" value="%">mod</button></div>
+                        <div class="col-sm">
+                            <button class="btn-primary btn-lg operator " id="enter" type="button" value="^">^</button>
+                        </div>
+                        <div class="col-sm">
+                            <button class="btn-danger btn-lg operator " type="button" value="/">/</button>
+                        </div>
+                    </div>
+				
+				<div class="row">
+					<div class="col-sm">
+						<button class="btn-primary btn-lg m-1 input" type="button " value="7">7</button>
+					</div>
+					<div class="col-sm"><button class="btn-primary btn-lg input" type="button" value="8">8</button></div>
+					<div class="col-sm"><button class="btn-primary btn-lg input" type="button" value="9">9</button></div>
+					<div class="col-sm">
+						<button class="btn-danger btn-lg operator " type="button" value="X">X</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm">
+						<button class="btn-primary btn-lg m-1 input" type="button" value="4">4</button>
+					</div>
+					<div class="col-sm"><button class="btn-primary btn-lg input" type="button" value="5">5</button></div>
+					<div class="col-sm"><button class="btn-primary btn-lg input" type="button" value="6">6</button></div>
+					<div class="col-sm">
+						<button class="btn-danger btn-lg operator " type="button" value="-">-</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm">
+						<button class="btn-primary btn-lg m-1 input" type="button" value="1">1</button>
+					</div>
+					<div class="col-sm"><button class="btn-primary btn-lg input" type="button" value="2">2</button></div>
+					<div class="col-sm"><button class="btn-primary btn-lg input" type="button" value="3">3</button></div>
+					<div class="col-sm">
+						<button class="btn-danger btn-lg operator " type="button" value="+">+</button>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm"><button class="btn-primary btn-lg m-1 input" id="clear" type="button" value=".">.</button></div>
+					<div class="col-sm"><button class="btn-primary btn-lg input" type="button" value="0">0</button></div>
+					<div class="col-sm">
+						<button class="btn-info btn-lg output " id="enter" type="button" value="enter">=</button>
+					</div>
+					<div class="col-sm">
+						<button class="btn-danger btn-lg operator " type="button" value="+">+</button>
+					</div>
+                </div>
+                
+                
+            </div>
+           
+		</div>
+
+		<script src="code.js"></script>
+	</body>
+</html>
