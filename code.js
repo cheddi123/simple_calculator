@@ -102,8 +102,8 @@ $(document).ready(function() {
 				console.log(total);
 				update(total);
 				displayNumber(total);
-                break;
-                
+				break;
+
 			case '^':
 				console.log('num1 : ' + num1);
 				console.log('num2 :' + num2);
@@ -111,12 +111,12 @@ $(document).ready(function() {
 				console.log(total);
 				update(total);
 				displayNumber(total);
-                break;
+				break;
 
-                case '%':
+			case '%':
 				console.log('num1 : ' + num1);
 				console.log('num2 :' + num2);
-				total = (+num1 % +num2);
+				total = +num1 % +num2;
 				console.log(total);
 				update(total);
 				displayNumber(total);
